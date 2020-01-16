@@ -64,25 +64,17 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-.navigation{
-	
-	width:100%;
-	
-	
+*{
+	border:solid red 2px;
 }
 nav{
-	
+	display:flex;
+	justify-content: space-evenly;
+	padding-bottom: 5%;
 }
-nav a {
-	
-	
-	
-	
-	
+nav a{
+	color:#708090;
 }
-
-
 .logo{
 	
 	width:10%;
@@ -95,8 +87,11 @@ button{
 
 header{
 	border-bottom:solid 2px;
+	display:flex;
+	align-items:flex-start;
 }
 .heading{
+	
 	
 	width:50%;
 	
@@ -109,8 +104,20 @@ header{
 .codepic{
 	width:49%;
 	text-align: right;
+	padding-right:5%;
 	
 }
+
+.top-content{
+	padding-top:2%;
+	display:flex;
+	justify-content: center;
+	text-align: left;
+}
+div h2{
+	text-align: left;
+}
+
 .features{
 	width:50%;
    
@@ -120,9 +127,20 @@ header{
 }
 
 .middle-img{
+	padding-top:2%;
+	display: block;
+	margin:0 auto;
+	width: 80%;
 	
 }
 
+.bottom-content{
+	display:flex;
+	justify-content: space-evenly;
+padding-top:2%;
+border-bottom: solid black 2px;
+padding-bottom:3%;
+}
 
 .services{width:33%;
 
@@ -139,9 +157,14 @@ header{
 	
 }
 .contacts{
+	padding-top:3%;
 
 }
 
+.foot{
+	display:flex;
+	justify-content: center;
+}
 footer {
 	background-color: #FFF;
 	
