@@ -65,12 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 *{
-	border:solid red 2px;
+	
 }
 nav{
 	display:flex;
 	justify-content: space-evenly;
-	padding-bottom: 5%;
+	padding-bottom: 2%;
 }
 nav a{
 	color:#708090;
@@ -80,27 +80,38 @@ nav a{
 	width:10%;
 }
 
-button{
-	font-size:50px;
+.button1{
+	font-size:30px;
 	border:solid black 1px;
+
+	
 }
 
+
 header{
+	padding-top: 3%;
 	border-bottom:solid 2px;
 	display:flex;
-	align-items:flex-start;
+	justify-content: right;
+	padding-bottom: 3%;
 }
 .heading{
 	
 	
 	width:50%;
-	
+	margin-left: 30%;
 	text-align: center;
 	font-size: 80px;
 
 	
 }
+.codepic{
+	margin-right: 60%;
+}
 
+.navigation{
+	set position: relative 
+}
 .codepic{
 	width:49%;
 	text-align: right;
@@ -109,7 +120,7 @@ header{
 }
 
 .top-content{
-	padding-top:2%;
+	padding-top:3%;
 	display:flex;
 	justify-content: center;
 	text-align: left;
@@ -118,11 +129,11 @@ div h2{
 	text-align: left;
 }
 
-.features{
+#features{
 	width:50%;
    
 }
-.about{
+#about{
 	width:50%;
 }
 
@@ -137,9 +148,13 @@ div h2{
 .bottom-content{
 	display:flex;
 	justify-content: space-evenly;
-padding-top:2%;
+padding-top:3%;
 border-bottom: solid black 2px;
 padding-bottom:3%;
+}
+
+.services-navigation{
+	padding-top: 1%;
 }
 
 .services{width:33%;
@@ -154,7 +169,11 @@ padding-bottom:3%;
 
 .vision{
 	width:33%;
-	
+}
+
+.contact{
+	padding-top:1.5%;
+}
 }
 .contacts{
 	padding-top:3%;
@@ -169,3 +188,103 @@ footer {
 	background-color: #FFF;
 	
 	}
+
+	
+	.services-header-img{
+
+	display: block;
+	margin:0 auto;
+	width: 90%;
+	}
+
+	.heading2 p{
+		font-size: 20px;
+	}
+	.heading2 h1{
+		font-size: 30px;
+	}
+	.heading2{
+		margin-top: 4%;
+		border-bottom: solid black 2px;
+		padding-bottom: 2%;
+	}
+	.content1{
+		margin-top: 2%;
+		display:flex;
+		width:100%;
+		justify-content: space-evenly;
+
+		
+	}
+	 .content1 div{
+		
+		 width:33%;
+		 border:solid black 1px;
+		 font-size: 20px;
+		 
+	
+	 }
+	 
+	 .content2{
+		margin-top: 2%;
+		display:flex;
+		width:100%;
+		justify-content: space-evenly;
+		
+		
+		
+	}
+	 .content2 div{
+		width:33%;
+		 border:solid black 1px;
+		 font-size: 20px;
+		 
+	 }
+	 .content3{
+		margin-top: 2%;
+		display:flex;
+		width:100%;
+		justify-content: space-evenly;
+		
+	}
+	 .content3 div{
+		width:33%;
+		 border:solid black 1px;
+		 font-size: 20px;
+		 margin-bottom: 2%;
+	 }
+	 
+	 #core{
+		 border-bottom: solid 2px black;
+		 
+	 }
+.end p{
+	font-size: 20px;
+	margin-bottom: 2%;
+}
+.button2{
+	border:solid black 1px;
+	margin:2%;
+	font-size: 15px;
+}
+ul{
+	padding-left: 2%;
+	list-style-type: square;
+	
+}
+.end{
+	display:flex;
+	padding-top: 2%;
+		
+		justify-content: space-between;
+}
+.services-info-img{
+	padding-left: 12%;
+	padding-right: 6%;
+}
+
+.lfoot{
+	display:flex;
+	margin-top: 3%;
+	justify-content: center;
+}
